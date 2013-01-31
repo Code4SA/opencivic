@@ -15,10 +15,10 @@ projects[drupal][version] = "7.19"
 
 ; Use vocabulary machine name for permissions
 ; http://drupal.org/node/995156
-projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
-projects[drupal][patch][1887924] = http://drupal.org/files/max_execution_error-1887924-1.patch
+; projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
+; projects[drupal][patch][1887924] = http://drupal.org/files/max_execution_error-1887924-1.patch
 
 projects[apps_catalog][type] = profile
 projects[apps_catalog][download][type] = git
 projects[apps_catalog][download][url] = https://github.com/nuams/apps_catalog.git
-; projects[apps_catalog][download][branch] = 7.x-2.x
+projects[apps_catalog][download][branch] = test-uuid-features-patch
