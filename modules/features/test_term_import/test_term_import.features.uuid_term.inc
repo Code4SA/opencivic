@@ -11,6 +11,15 @@ function test_term_import_uuid_features_default_terms() {
   $terms = array();
 
   $terms[] = array(
+    'name' => 'paper',
+    'description' => '',
+    'format' => 'filtered_html',
+    'weight' => '0',
+    'uuid' => '800f6dc5-a3b3-40ef-8b32-c352aa95afa4',
+    'vocabulary_machine_name' => 'tags',
+    'field_tag_image' => array(),
+  );
+  $terms[] = array(
     'name' => 'brick',
     'description' => '',
     'format' => 'filtered_html',

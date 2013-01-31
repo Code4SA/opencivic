@@ -10,4 +10,5 @@ dependencies[] = uuid_features
 features[features_api][] = api:1
 features[field][] = taxonomy_term-tags-field_tag_image
 features[taxonomy][] = tags
+features[uuid_term][] = 800f6dc5-a3b3-40ef-8b32-c352aa95afa4
 features[uuid_term][] = ec4054bf-6bec-4f18-85b2-9ee8d8d56599
