@@ -1,0 +1,12 @@
+name = test_term_import
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = image
+dependencies[] = taxonomy
+dependencies[] = uuid
+dependencies[] = uuid_features
+features[features_api][] = api:1
+features[field][] = taxonomy_term-tags-field_tag_image
+features[taxonomy][] = tags
+features[uuid_term][] = ec4054bf-6bec-4f18-85b2-9ee8d8d56599
