@@ -4,11 +4,11 @@ core = 7.x
 ; Modules =====================================================================
 
 projects[admin_menu][subdir] = "contrib"
-
 projects[features][subdir] = "contrib"
+projects[entity][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.x-dev"
-projects[uuid_features][subdir] = "devel"
+projects[uuid_features][subdir] = "contrib"
 projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
 projects[uuid_features][download][revision] = 924559bcf71e39c15374fb2b9623df16075f3ccf
 projects[uuid_features][download][branch] = 7.x-1.x
@@ -18,7 +18,7 @@ projects[uuid_features][type] = "module"
 projects[uuid_features][patch][1893914] = http://drupal.org/files/taxonomy_field_fields-1893914-4.patch
 
 projects[uuid][version] = "1.x-dev"
-projects[uuid][subdir] = "devel"
+projects[uuid][subdir] = "contrib"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = 8b6d70f1764a83896e799712111d6b46cf482737
 projects[uuid][download][branch] = 7.x-1.x

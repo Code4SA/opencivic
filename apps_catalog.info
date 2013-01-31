@@ -24,6 +24,7 @@ dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = entity
 dependencies[] = features
 dependencies[] = uuid
 dependencies[] = uuid_features
