@@ -43,3 +43,368 @@
     }
   }
 }
+
+
+/* activity feed */
+
+
+.view-interactions{
+  .interaction{
+    text-transform: lowercase;
+    padding: 1px 3px;
+    background: #ffffcc;
+    color: black;
+    .Deployed{
+      background: #D0E664;
+    }
+  }
+}
+
+
+/**
+ * General views (generic views) styling
+ */
+.view .views-field-picture {
+  float: left;
+  margin: 0 10px 5px 0; }
+
+.view.view-user-views .views-field-name a,
+.view .views-field-title a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; }
+
+.view.view-user-views .views-field-created {
+  font-size: 12px; }
+
+.view-featured-sites .view-footer p {
+  margin-bottom: 0;
+  text-align: right; }
+
+
+
+.view-at-a-glance-project .views-label {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px; }
+
+
+.view-at-a-glance-project {
+  .views-field-field-members, 
+  .views-field-field-sanitation-category, 
+  .views-field-field-application-softfunction, 
+  .views-field-field-application-tags, 
+  .views-field-field-rating {
+    margin-top: 9px;
+  }
+}
+
+
+
+
+/* List: By Place */
+
+.places-list-container {
+  margin-bottom: 20px;
+  .view-content {
+    margin-bottom: 10px;
+  }
+  .views-field-field-organization-address {
+    font-weight: bold;
+  }
+  td {
+    border-bottom: 1px dashed #eeeeee;
+    padding: 5px 0;
+    clear: both;
+    > div {
+      /*float: left;
+      width: 48%;
+      margin-right: 2%;
+      */
+    }
+  }
+}
+
+.front .places-list-container .views-field-field-organization-address {
+  float: left;
+  width: 230px; }
+
+.front .using-sharing {
+  float: right;
+  width: 260px; }
+
+.places-list-container td div {
+  display: inline; }
+
+.views-field-field-organization-address a {
+  font-size: 16px;
+  text-decoration: none; }
+
+.view-at-a-glance .cc-org-apps,
+.cc-org-apps {
+  /*  width: 100px;*/
+  float: left;
+  width: 50%; }
+
+.view-at-a-glance .cc-org-details-title {
+  font-weight: bold;
+  font-size: 14px; }
+
+.page-places .cc-org-apps {
+  width: inherit; }
+
+.cc-org-apps > div {
+  /*margin-right: 0.3em;*/ }
+
+.cc-org-prefix-using,
+.cc-org-prefix-sharing {
+  /*  padding-left: 4px; */
+  font-size: 12px;
+  /*  width: 20px;*/
+  display: inline-block;
+  height: 20px;
+  float: left; }
+
+.view-at-a-glance .views-field-field-organization-address-2 .field-content, .page-places .views-field-field-organization-interactions .field-content,
+.page-places .views-field-field-organization-address-2 .field-content, .page-places .views-field-field-organization-interactions .field-content {
+  width: 440px;
+  color: #666;
+  line-height: 2;
+  display: block;
+  margin-left: 0;
+  clear: left;
+  background: #F8F8F8;
+  border: 1px solid #e4e4e4;
+  height: 20px;
+  margin-top: 18px;
+  background: #f8f8f8 url("../images/icon_place_18_gray.png") 1px 1px no-repeat;
+  padding: 0px 0px 0px 20px; }
+
+.page-places .views-field-field-organization-address-2 .field-content {
+  padding: 0px 0px 0px 18px; }
+
+.view-at-a-glance .views-field-field-organization-interactions .field-content,
+.page-places .views-field-field-organization-interactions .field-content {
+  background: #f8f8f8 url("../images/civic-18.png") 1px 1px no-repeat; }
+
+.view-at-a-glance .company .views-field-field-organization-interactions .field-content,
+.page-places .company .views-field-field-organization-interactions .field-content {
+  background: #f8f8f8 url("../images/bldg-grey.gif") 1px 1px no-repeat; }
+
+.view-at-a-glance .view-id-places .views-row,
+.page-places .view-id-places .views-row {
+  border-bottom: none; }
+
+.view-at-a-glance .cc-org-prefix-sharing:after,
+.view-at-a-glance .cc-org-prefix-using:after {
+  content: ": ";
+  padding-right: 10px; }
+
+.page-places .cc-org-prefix-using {
+  background: url("../images/hammer-wrench-active-18.png") 3.4em 2px no-repeat;
+  padding-right: 2.4em;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 4px; }
+
+/* .view-at-a-glance .cc-org-prefix-sharing, */
+.page-places .cc-org-prefix-sharing {
+  background: url("../images/gov-gov-gray-18.png") 4.3em 2px no-repeat;
+  padding-right: 2.0em;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 4px; }
+
+.view-at-a-glance .cc-org-count,
+.page-places .cc-org-count {
+  font-size: 12px;
+  margin-right: 7px;
+  float: left; }
+
+.view-at-a-glance .cc-using,
+.view-at-a-glance .cc-sharing,
+.page-places .cc-using,
+.page-places .cc-sharing {
+  height: 20px; }
+
+.view-at-a-glance .cc-org-postfix,
+.cc-org-postfix {
+  display: none;
+  font-size: 0px; }
+
+.view-at-a-glance .view-id-places .cc-org-apps,
+.page-places .view-id-places .cc-org-apps {
+  margin-right: 0px; }
+
+.view-at-a-glance .field-content {
+  margin-bottom: 20px; }
+
+
+/* List: By Function */
+.functions-list-container {
+  margin: 10px 0;
+  /*width: 940px;
+  clear: both;*/ }
+
+.browse-by-grid {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 24px;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  td {
+    background: white !important;
+    padding: 0 10px 20px 0;
+  }
+}
+/* Views Rows */
+.views-row {
+  margin: 0 0 20px;
+  color: #666;
+  position: relative; }
+
+.views-row .views-field-field-problem-name .field-content {
+  white-space: pre;
+  /* CSS2 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla */
+  white-space: -hp-pre-wrap;
+  /* HP printers */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */ }
+
+.view-at-a-glance-problem .views-row .views-field-field-problem-url-1 {
+  margin-top: 0!important; }
+
+.view-at-a-glance-problem .views-row .views-field {
+  margin: 8px 0 0 0; }
+
+.views-row .views-field-edit-node {
+  background-color: #EEEEEE;
+  border: 1px solid #f2f2f2;
+  float: right;
+  margin: 8px 0 0;
+  padding: 0 3px 3px; }
+
+.views-row .views-field-edit-node a {
+  color: #605859;
+  text-decoration: none; }
+
+.views-row:before, .views-row:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.views-row:after {
+  clear: both; }
+
+.views-row {
+  zoom: 1; }
+
+/* List: Apps */
+.apps-list {
+  margin: 20px 0; }
+
+.views-field-field-application-logo {
+  float: left;
+  width: 60px;
+  margin-right: -60px; }
+
+
+.apps-list {
+  .views-field-field-application-sdesc, .views-field-field-interaction-organization {
+    margin-left: 70px;
+  }
+  .views-field-title {
+    padding-top: 5px;
+    a {
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  .views-field-field-application-sdesc {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+  
+.meta {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2;
+  display: block;
+  margin-left: 0;
+  clear: left;
+  background: #F8F8F8;
+  border: 1px solid #e4e4e4;
+  height: 24px;
+}
+
+.apps-list .meta {
+  a {
+    text-decoration: none;
+  }
+  .civic-function, .places-used, .date-updated {
+    margin: 0 5px;
+  }
+  span.civic-function {
+    float: right;
+  }
+}
+
+.apps-list span.places-used {
+  font-weight: bold;
+  float: left;
+  border-right: 1px solid #e4e4e4;
+  padding-right: 12px;
+  width: 100px; }
+
+.apps-list span.date-updated {
+  float: left; }
+
+/* List: Recent Activity */
+  
+.view-interactions {
+  .views-row {
+    margin-bottom: 12px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .org-name {
+    font-weight: bold;
+    /*font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;*/
+    a {
+      font-weight: bold;
+      /*font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;*/
+    }
+  }
+  .app-name {
+    font-weight: bold;
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+/* List: Related Apps */
+.view-related-apps-block view-empty {
+  display: none; }

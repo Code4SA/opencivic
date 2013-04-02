@@ -62,3 +62,33 @@
     @include unpublished-div;
   }
 }
+
+
+
+/*
+ *
+ * Content-type specific layouts
+ *
+ */
+/* override .grid-16 for apps and orgs */
+body.node-type-application #region-content,
+body.node-type-organization #region-content,
+body.node-type-project #region-content,
+body.node-type-standard #region-content,
+body.node-type-page #region-content {
+  width: 630px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+body.context-wiki #region-content {
+  width: 940px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.page-places #region-content {
+  width: 940px;
+  margin-bottom: 20px; }
+
+
+  .node-type-story .user-picture {
+  display: none; }

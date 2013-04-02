@@ -64,6 +64,39 @@ css[other-styles.css][name] = Additional CSS styles
 css[other-styles.css][description] = This file holds additional CSS that has not yet been added to global CSS.
 css[other-styles.css][options][weight] = 14]
 
+css[normalize.css][name] = Normalize
+css[normalize.css][description] = Normalize
+css[normalize.css][options][weight] = 15]
+
+css[pages.css][name] = Pages styles
+css[pages.css][description] = Pages and regions styles.
+css[pages.css][options][weight] = 16]
+
+css[comments.css][name] = comments styles
+css[comments.css][description] = comments styles.
+css[comments.css][options][weight] = 16]
+
+css[forms.css][name] = forms styles
+css[forms.css][description] = forms styles.
+css[forms.css][options][weight] = 16]
+
+css[navigation.css][name] = navigation styles
+css[navigation.css][description] = navigation styles.
+css[navigation.css][options][weight] = 16]
+
+css[nodes.css][name] = nodes styles
+css[nodes.css][description] = nodes styles.
+css[nodes.css][options][weight] = 16]
+
+css[tabs.css][name] = tabs styles
+css[tabs.css][description] = tabs styles.
+css[tabs.css][options][weight] = 16]
+
+css[views-styles.css][name] = views-styles styles
+css[views-styles.css][description] = views-styles styles.
+css[views-styles.css][options][weight] = 16]
+
+
 ; SCRIPTS
 
 scripts[] = js/cat_lover.js
