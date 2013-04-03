@@ -1,0 +1,505 @@
+/**
+ * @file
+ * Views Styling
+ */
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+/* line 18, ../sass/views-styles.scss */
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+/* line 24, ../sass/views-styles.scss */
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  text-shadow: none;
+  padding: 2px 7px 3px;
+}
+/* line 29, ../sass/views-styles.scss */
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+/* line 31, ../sass/views-styles.scss */
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+/* line 36, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+/* line 38, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+/* line 41, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+/* activity feed */
+/* line 52, ../sass/views-styles.scss */
+.view-interactions .interaction {
+  text-transform: lowercase;
+  padding: 1px 3px;
+  background: #ffffcc;
+  color: black;
+}
+/* line 57, ../sass/views-styles.scss */
+.view-interactions .interaction .Deployed {
+  background: #D0E664;
+}
+
+/**
+ * General views (generic views) styling
+ */
+/* line 67, ../sass/views-styles.scss */
+.view .views-field-picture {
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+/* line 72, ../sass/views-styles.scss */
+.view.view-user-views .views-field-name a,
+.view .views-field-title a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 77, ../sass/views-styles.scss */
+.view.view-user-views .views-field-created {
+  font-size: 12px;
+}
+
+/* line 80, ../sass/views-styles.scss */
+.view-featured-sites .view-footer p {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/* line 86, ../sass/views-styles.scss */
+.view-at-a-glance-project .views-label {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/* line 97, ../sass/views-styles.scss */
+.view-at-a-glance-project .views-field-field-members,
+.view-at-a-glance-project .views-field-field-sanitation-category,
+.view-at-a-glance-project .views-field-field-application-softfunction,
+.view-at-a-glance-project .views-field-field-application-tags,
+.view-at-a-glance-project .views-field-field-rating {
+  margin-top: 9px;
+}
+
+/* List: By Place */
+/* line 107, ../sass/views-styles.scss */
+.places-list-container {
+  margin-bottom: 20px;
+}
+/* line 109, ../sass/views-styles.scss */
+.places-list-container .view-content {
+  margin-bottom: 10px;
+}
+/* line 112, ../sass/views-styles.scss */
+.places-list-container .views-field-field-organization-address {
+  font-weight: bold;
+}
+/* line 115, ../sass/views-styles.scss */
+.places-list-container td {
+  border-bottom: 1px dashed #eeeeee;
+  padding: 5px 0;
+  clear: both;
+}
+/* line 119, ../sass/views-styles.scss */
+.places-list-container td > div {
+  /*float: left;
+  width: 48%;
+  margin-right: 2%;
+  */
+}
+
+/* line 128, ../sass/views-styles.scss */
+.front .places-list-container .views-field-field-organization-address {
+  float: left;
+  width: 230px;
+}
+
+/* line 132, ../sass/views-styles.scss */
+.front .using-sharing {
+  float: right;
+  width: 260px;
+}
+
+/* line 136, ../sass/views-styles.scss */
+.places-list-container td div {
+  display: inline;
+}
+
+/* line 139, ../sass/views-styles.scss */
+.views-field-field-organization-address a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 144, ../sass/views-styles.scss */
+.view-at-a-glance .cc-org-apps,
+.cc-org-apps {
+  /*  width: 100px;*/
+  float: left;
+  width: 50%;
+}
+
+/* line 149, ../sass/views-styles.scss */
+.view-at-a-glance .cc-org-details-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 153, ../sass/views-styles.scss */
+.page-places .cc-org-apps {
+  width: inherit;
+}
+
+/* line 156, ../sass/views-styles.scss */
+.cc-org-apps > div {
+  /*margin-right: 0.3em;*/
+}
+
+/* line 160, ../sass/views-styles.scss */
+.cc-org-prefix-using,
+.cc-org-prefix-sharing {
+  /*  padding-left: 4px; */
+  font-size: 12px;
+  /*  width: 20px;*/
+  display: inline-block;
+  height: 20px;
+  float: left;
+}
+
+/* line 169, ../sass/views-styles.scss */
+.view-at-a-glance .views-field-field-organization-address-2 .field-content, .page-places .views-field-field-organization-interactions .field-content,
+.page-places .views-field-field-organization-address-2 .field-content, .page-places .views-field-field-organization-interactions .field-content {
+  width: 440px;
+  color: #666;
+  line-height: 2;
+  display: block;
+  margin-left: 0;
+  clear: left;
+  background: #F8F8F8;
+  border: 1px solid #e4e4e4;
+  height: 20px;
+  margin-top: 18px;
+  background: #f8f8f8 url("../images/icon_place_18_gray.png") 1px 1px no-repeat;
+  padding: 0px 0px 0px 20px;
+}
+
+/* line 183, ../sass/views-styles.scss */
+.page-places .views-field-field-organization-address-2 .field-content {
+  padding: 0px 0px 0px 18px;
+}
+
+/* line 187, ../sass/views-styles.scss */
+.view-at-a-glance .views-field-field-organization-interactions .field-content,
+.page-places .views-field-field-organization-interactions .field-content {
+  background: #f8f8f8 url("../images/civic-18.png") 1px 1px no-repeat;
+}
+
+/* line 191, ../sass/views-styles.scss */
+.view-at-a-glance .company .views-field-field-organization-interactions .field-content,
+.page-places .company .views-field-field-organization-interactions .field-content {
+  background: #f8f8f8 url("../images/bldg-grey.gif") 1px 1px no-repeat;
+}
+
+/* line 195, ../sass/views-styles.scss */
+.view-at-a-glance .view-id-places .views-row,
+.page-places .view-id-places .views-row {
+  border-bottom: none;
+}
+
+/* line 199, ../sass/views-styles.scss */
+.view-at-a-glance .cc-org-prefix-sharing:after,
+.view-at-a-glance .cc-org-prefix-using:after {
+  content: ": ";
+  padding-right: 10px;
+}
+
+/* line 203, ../sass/views-styles.scss */
+.page-places .cc-org-prefix-using {
+  background: url("../images/hammer-wrench-active-18.png") 3.4em 2px no-repeat;
+  padding-right: 2.4em;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 4px;
+}
+
+/* .view-at-a-glance .cc-org-prefix-sharing, */
+/* line 210, ../sass/views-styles.scss */
+.page-places .cc-org-prefix-sharing {
+  background: url("../images/gov-gov-gray-18.png") 4.3em 2px no-repeat;
+  padding-right: 2.0em;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 4px;
+}
+
+/* line 217, ../sass/views-styles.scss */
+.view-at-a-glance .cc-org-count,
+.page-places .cc-org-count {
+  font-size: 12px;
+  margin-right: 7px;
+  float: left;
+}
+
+/* line 225, ../sass/views-styles.scss */
+.view-at-a-glance .cc-using,
+.view-at-a-glance .cc-sharing,
+.page-places .cc-using,
+.page-places .cc-sharing {
+  height: 20px;
+}
+
+/* line 229, ../sass/views-styles.scss */
+.view-at-a-glance .cc-org-postfix,
+.cc-org-postfix {
+  display: none;
+  font-size: 0px;
+}
+
+/* line 234, ../sass/views-styles.scss */
+.view-at-a-glance .view-id-places .cc-org-apps,
+.page-places .view-id-places .cc-org-apps {
+  margin-right: 0px;
+}
+
+/* line 237, ../sass/views-styles.scss */
+.view-at-a-glance .field-content {
+  margin-bottom: 20px;
+}
+
+/* List: By Function */
+/* line 242, ../sass/views-styles.scss */
+.functions-list-container {
+  margin: 10px 0;
+  /*width: 940px;
+  clear: both;*/
+}
+
+/* line 247, ../sass/views-styles.scss */
+.browse-by-grid {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 24px;
+}
+/* line 252, ../sass/views-styles.scss */
+.browse-by-grid a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* line 257, ../sass/views-styles.scss */
+.browse-by-grid td {
+  background: white !important;
+  padding: 0 10px 20px 0;
+}
+
+/* Views Rows */
+/* line 263, ../sass/views-styles.scss */
+.views-row {
+  margin: 0 0 20px;
+  color: #666;
+  position: relative;
+}
+
+/* line 268, ../sass/views-styles.scss */
+.views-row .views-field-field-problem-name .field-content {
+  white-space: pre;
+  /* CSS2 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla */
+  white-space: -hp-pre-wrap;
+  /* HP printers */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */
+}
+
+/* line 286, ../sass/views-styles.scss */
+.view-at-a-glance-problem .views-row .views-field-field-problem-url-1 {
+  margin-top: 0!important;
+}
+
+/* line 289, ../sass/views-styles.scss */
+.view-at-a-glance-problem .views-row .views-field {
+  margin: 8px 0 0 0;
+}
+
+/* line 292, ../sass/views-styles.scss */
+.views-row .views-field-edit-node {
+  background-color: #EEEEEE;
+  border: 1px solid #f2f2f2;
+  float: right;
+  margin: 8px 0 0;
+  padding: 0 3px 3px;
+}
+
+/* line 299, ../sass/views-styles.scss */
+.views-row .views-field-edit-node a {
+  color: #605859;
+  text-decoration: none;
+}
+
+/* line 303, ../sass/views-styles.scss */
+.views-row:before, .views-row:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 309, ../sass/views-styles.scss */
+.views-row:after {
+  clear: both;
+}
+
+/* line 312, ../sass/views-styles.scss */
+.views-row {
+  zoom: 1;
+}
+
+/* List: Apps */
+/* line 316, ../sass/views-styles.scss */
+.apps-list {
+  margin: 20px 0;
+}
+
+/* line 319, ../sass/views-styles.scss */
+.views-field-field-application-logo {
+  float: left;
+  width: 60px;
+  margin-right: -60px;
+}
+
+/* line 326, ../sass/views-styles.scss */
+.apps-list .views-field-field-application-sdesc, .apps-list .views-field-field-interaction-organization {
+  margin-left: 70px;
+}
+/* line 329, ../sass/views-styles.scss */
+.apps-list .views-field-title {
+  padding-top: 5px;
+}
+/* line 331, ../sass/views-styles.scss */
+.apps-list .views-field-title a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 337, ../sass/views-styles.scss */
+.apps-list .views-field-field-application-sdesc {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* line 344, ../sass/views-styles.scss */
+.meta {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2;
+  display: block;
+  margin-left: 0;
+  clear: left;
+  background: #F8F8F8;
+  border: 1px solid #e4e4e4;
+  height: 24px;
+}
+
+/* line 358, ../sass/views-styles.scss */
+.apps-list .meta a {
+  text-decoration: none;
+}
+/* line 361, ../sass/views-styles.scss */
+.apps-list .meta .civic-function, .apps-list .meta .places-used, .apps-list .meta .date-updated {
+  margin: 0 5px;
+}
+/* line 364, ../sass/views-styles.scss */
+.apps-list .meta span.civic-function {
+  float: right;
+}
+
+/* line 369, ../sass/views-styles.scss */
+.apps-list span.places-used {
+  font-weight: bold;
+  float: left;
+  border-right: 1px solid #e4e4e4;
+  padding-right: 12px;
+  width: 100px;
+}
+
+/* line 376, ../sass/views-styles.scss */
+.apps-list span.date-updated {
+  float: left;
+}
+
+/* List: Recent Activity */
+/* line 382, ../sass/views-styles.scss */
+.view-interactions .views-row {
+  margin-bottom: 12px;
+}
+/* line 385, ../sass/views-styles.scss */
+.view-interactions a {
+  text-decoration: none;
+}
+/* line 388, ../sass/views-styles.scss */
+.view-interactions .org-name {
+  font-weight: bold;
+  /*font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;*/
+}
+/* line 393, ../sass/views-styles.scss */
+.view-interactions .org-name a {
+  font-weight: bold;
+  /*font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;*/
+}
+/* line 400, ../sass/views-styles.scss */
+.view-interactions .app-name {
+  font-weight: bold;
+}
+/* line 402, ../sass/views-styles.scss */
+.view-interactions .app-name a {
+  font-weight: bold;
+}
+
+/* List: Related Apps */
+/* line 409, ../sass/views-styles.scss */
+.view-related-apps-block view-empty {
+  display: none;
+}

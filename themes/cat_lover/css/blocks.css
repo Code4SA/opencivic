@@ -1,0 +1,1130 @@
+/**
+ * @file
+ * Block Styling
+ */
+/* line 9, ../sass/blocks.scss */
+.block {
+  /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+/* line 12, ../sass/blocks.scss */
+.block.first {
+  /* The first block in the region */
+}
+/* line 15, ../sass/blocks.scss */
+.block.last {
+  /* The last block in the region */
+}
+/* line 18, ../sass/blocks.scss */
+.block.odd {
+  /* Zebra striping for each block in the region */
+}
+/* line 21, ../sass/blocks.scss */
+.block.even {
+  /* Zebra striping for each block in the region */
+}
+/* line 24, ../sass/blocks.scss */
+.block h2.block-title {
+  /* Block title */
+}
+
+/* line 29, ../sass/blocks.scss */
+#block-aggregator-category-1 {
+  /* Block for the latest news items in the first category */
+}
+
+/* line 32, ../sass/blocks.scss */
+#block-aggregator-feed-1 {
+  /* Block for the latest news items in the first feed */
+}
+
+/* line 35, ../sass/blocks.scss */
+#block-block-1 {
+  /* First block created with "Add block" link */
+}
+
+/* line 38, ../sass/blocks.scss */
+#block-blog-recent {
+  /* "Recent blog posts" block */
+}
+
+/* line 41, ../sass/blocks.scss */
+#block-book-navigation {
+  /* "Book navigation" block for the current book's table of contents */
+}
+
+/* line 44, ../sass/blocks.scss */
+#block-comment-recent {
+  /* "Recent comments" block */
+}
+
+/* line 47, ../sass/blocks.scss */
+#block-forum-active {
+  /* "Active forum topics" block */
+}
+
+/* line 50, ../sass/blocks.scss */
+#block-forum-new {
+  /* "New forum topics" block */
+}
+
+/* line 53, ../sass/blocks.scss */
+#block-locale-language {
+  /* Language switcher block */
+}
+
+/* line 56, ../sass/blocks.scss */
+#block-menu-menu-NAME {
+  /* Custom menu block */
+}
+
+/* line 59, ../sass/blocks.scss */
+#block-node-recent {
+  /* "Recent content" block */
+}
+
+/* line 62, ../sass/blocks.scss */
+#block-node-syndicate {
+  /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+/* line 65, ../sass/blocks.scss */
+#block-poll-recent {
+  /* "Most recent poll" block */
+}
+
+/* line 68, ../sass/blocks.scss */
+#block-profile-author-information {
+  /* "Author information" block for the profile of the page's author */
+}
+
+/* line 71, ../sass/blocks.scss */
+#block-search-form {
+  /* "Search form" block */
+}
+
+/* line 74, ../sass/blocks.scss */
+#block-shortcut-shortcuts {
+  /* "Shortcuts" block */
+}
+
+/* line 77, ../sass/blocks.scss */
+#block-statistics-popular {
+  /* "Popular content" block */
+}
+
+/* line 80, ../sass/blocks.scss */
+#block-system-main-menu {
+  /* "Main menu" block */
+}
+
+/* line 83, ../sass/blocks.scss */
+#block-system-management {
+  /* "Management" block for Drupal management menu */
+}
+
+/* line 86, ../sass/blocks.scss */
+#block-system-navigation {
+  /* "Navigation" block for Drupal navigation menu */
+}
+
+/* line 89, ../sass/blocks.scss */
+#block-system-user-menu {
+  /* "User menu" block for Drupal user menu */
+}
+
+/* line 92, ../sass/blocks.scss */
+#block-system-help {
+  /* "System help" block */
+}
+
+/* line 95, ../sass/blocks.scss */
+#block-system-main {
+  /* "Main page content" block */
+}
+
+/* line 98, ../sass/blocks.scss */
+#block-system-powered-by {
+  /* "Powered by Drupal" block */
+}
+
+/* line 101, ../sass/blocks.scss */
+#block-user-login {
+  /* "User login form" block */
+}
+
+/* line 104, ../sass/blocks.scss */
+#block-user-new {
+  /* "Who's new" block for a list of the newest users */
+}
+
+/* line 107, ../sass/blocks.scss */
+#block-user-online {
+  /* "Who's online" block for a list of the online users */
+}
+
+/* Janrain Engage (LinkedIn)
+-----------------------------*/
+/* line 113, ../sass/blocks.scss */
+#user-login {
+  padding: 20px;
+}
+
+/* hide login bar links */
+/* line 118, ../sass/blocks.scss */
+#region-content-top .rpx-links,
+#region-search-bar .rpx-links {
+  display: none;
+}
+
+/* make linkedin link big on user login */
+/* line 125, ../sass/blocks.scss */
+#user-login li.rpx-link {
+  margin-left: 0;
+  /* overrides system style */
+  font-size: 1em;
+  display: block;
+  padding: 10px 0;
+}
+/* line 131, ../sass/blocks.scss */
+#user-login li.rpx-link br {
+  display: none;
+}
+/* line 135, ../sass/blocks.scss */
+#user-login a.rpxnow {
+  /* linkedin icon */
+  margin-left: 19px;
+}
+
+/* line 143, ../sass/blocks.scss */
+#block-cc-helper-cc-breadcrumb {
+  margin: 0;
+  float: left;
+  clear: none;
+}
+
+/* line 148, ../sass/blocks.scss */
+.region-content-top-inner {
+  min-height: 25px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+/* line 155, ../sass/blocks.scss */
+#block-cc-helper-cc-breadcrumb .block {
+  clear: none;
+}
+
+/* line 158, ../sass/blocks.scss */
+#block-system-user-menu {
+  clear: both;
+  float: right;
+  margin-bottom: 0px;
+}
+/* line 162, ../sass/blocks.scss */
+#block-system-user-menu ul {
+  border: 1px solid #e4e4e4;
+  list-style: none;
+  text-align: left;
+  background: #F7F7F7;
+  font-style: normal;
+  /*  margin-top: 1px; */
+}
+/* line 170, ../sass/blocks.scss */
+#block-system-user-menu li {
+  display: inline;
+}
+/* line 173, ../sass/blocks.scss */
+#block-system-user-menu a {
+  text-decoration: none;
+  padding: 1px 3px 1px 3px;
+}
+
+/* line 180, ../sass/blocks.scss */
+#block-user-login,
+#block-addtoany-addtoany-button {
+  float: right;
+  clear: both;
+  margin-left: 0em;
+}
+
+/* line 185, ../sass/blocks.scss */
+#block-user-login {
+  margin-bottom: 0px;
+  /* margin-top: -80px */
+  /* moves it above search, closer to util bar */
+}
+
+/* line 190, ../sass/blocks.scss */
+#block-addtoany-addtoany-button {
+  display: none;
+}
+
+/* line 193, ../sass/blocks.scss */
+#block-cc-flag-block-flag-block {
+  background: none;
+  box-shadow: none;
+  margin-bottom: none;
+}
+
+/* line 198, ../sass/blocks.scss */
+#block-cc-flag-block-flag-block li {
+  display: inline;
+}
+
+/* line 202, ../sass/blocks.scss */
+.block-title h2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Block: Preview Intro */
+/* line 211, ../sass/blocks.scss */
+.preview-intro {
+  margin-bottom: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 8px 1px #ded8d8;
+  -webkit-box-shadow: 0 1px 8px 1px #ded8d8;
+  box-shadow: 0 1px 8px 1px #ded8d8;
+}
+
+/* Block: Preview Intro */
+/* line 221, ../sass/blocks.scss */
+.preview-intro {
+  margin-bottom: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 8px 1px #ded8d8;
+  -webkit-box-shadow: 0 1px 8px 1px #ded8d8;
+  box-shadow: 0 1px 8px 1px #ded8d8;
+}
+
+/* Block: Add to the Marketplace */
+/* line 231, ../sass/blocks.scss */
+.block.add-to-marketplace {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+/* line 237, ../sass/blocks.scss */
+.block.add-to-marketplace,
+.block.highlight,
+#region-sidebar-second .block {
+  background-color: #FBFBFB;
+  /* to mimic the color of the foil: background-color: #FBF6DD; */
+  -moz-box-shadow: 0 1px 8px 1px #ded8d8;
+  -webkit-box-shadow: 0 1px 8px 1px #ded8d8;
+  box-shadow: 0 1px 8px 1px #ded8d8;
+}
+
+/* line 247, ../sass/blocks.scss */
+.add-to-marketplace,
+.edit_block,
+.block-cc-editing,
+.block-cc-api {
+  border: 3px dashed #c3c8cd;
+  text-align: center;
+}
+
+/* line 254, ../sass/blocks.scss */
+.region-sidebar-second .add-button,
+.add-to-marketplace .add-button,
+.edit_block .add-button,
+.block-cc-editing .add-button {
+  display: block;
+  background-image: url("../images/buttonbg2.png");
+  width: 220px;
+  height: 22px;
+  margin: auto;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  font-weight: normal;
+  font-family: Helvetica, Arial;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 3px;
+  -webkit-box-shadow: 2px 2px 3px #aaaaaa;
+  -moz-box-shadow: 2px 2px 3px #aaaaaa;
+  box-shadow: 2px 2px 3px #aaaaaa;
+  border: 2px solid #cb2a3c;
+  border-bottom: initial;
+  border-top: 1px solid #ac2b3f;
+  border-right: 2px solid #ac2b3f;
+}
+
+/* line 277, ../sass/blocks.scss */
+.block.add-to.marketplace div, .block.edit_block div {
+  text-align: center;
+  display: inline-block;
+  margin-left: 52px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+/* line 284, ../sass/blocks.scss */
+.block.edit_block p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* line 288, ../sass/blocks.scss */
+.block.edit_block div {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 3px 9px;
+}
+
+/* line 293, ../sass/blocks.scss */
+.block.add-to-marketplace h2, .block.edit_block h2 {
+  color: #555;
+  background-image: none;
+  background-color: transparent;
+  border: none;
+}
+
+/* line 299, ../sass/blocks.scss */
+.block.add-to-marketplace li, .block.edit_block li {
+  list-style: none;
+}
+
+/* line 303, ../sass/blocks.scss */
+.block.add-to.marketplace p,
+.block.edit_block p {
+  margin: 15px 0px 0px 0px;
+  font-size: 1.2em;
+}
+
+/* line 307, ../sass/blocks.scss */
+.block-cc-editing {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* line 311, ../sass/blocks.scss */
+.block-cc-editing .cc-editing-node-edit-button {
+  margin-bottom: 10px;
+}
+
+/* line 314, ../sass/blocks.scss */
+.block-cc-editing .cc-editing-node-edit-revision-count {
+  font-style: italic;
+}
+
+/* line 317, ../sass/blocks.scss */
+.example {
+  margin-bottom: 10px;
+}
+
+/* line 320, ../sass/blocks.scss */
+.edit_date {
+  display: block;
+  margin-top: 2px;
+  font-style: italic;
+}
+
+/* line 325, ../sass/blocks.scss */
+#region-sidebar-second .add-to-marketplace {
+  margin-top: -16px;
+}
+
+/* line 328, ../sass/blocks.scss */
+.page-taxonomy .add-to-marketplace {
+  margin-top: 3px;
+}
+
+/* line 331, ../sass/blocks.scss */
+.highlight views-row {
+  margin: 0 0 0px;
+}
+
+/* line 334, ../sass/blocks.scss */
+.front .add-to-marketplace h2 {
+  text-align: center;
+}
+
+/* Apps & org Pages */
+/* line 339, ../sass/blocks.scss */
+.field-name-field-application-logo,
+.field-name-field-organization-logo {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+/* line 343, ../sass/blocks.scss */
+.node-type-organization .field-name-field-organization-address {
+  margin: 0 0 10px;
+}
+
+/* line 346, ../sass/blocks.scss */
+.group_basic_info {
+  margin: 0 0 20px;
+}
+
+/* line 349, ../sass/blocks.scss */
+#block-views-at-a-glance-application-block .content {
+  padding-top: 0;
+  list-style: none;
+}
+
+/* line 353, ../sass/blocks.scss */
+.views-field-field-application-used-in {
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  background: url(../images/icon_place_mini.gif) left center no-repeat scroll;
+  padding: 5px 0px 0px 24px;
+  margin: 0 0 5px;
+}
+
+/* line 361, ../sass/blocks.scss */
+.views-field-field-application-used-in .views-label {
+  font-size: 16px;
+}
+
+/* line 364, ../sass/blocks.scss */
+.views-field-field-application-used-in div {
+  display: inline;
+}
+
+/* line 367, ../sass/blocks.scss */
+#block-views-at-a-glance-application-block .view-header p {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0 0 10px;
+  margin: 0 0 10px;
+}
+
+/* line 374, ../sass/blocks.scss */
+#block-views-at-a-glance-application-block .view-header .cc-places-count {
+  padding: 0 0.2em;
+}
+
+/* line 383, ../sass/blocks.scss */
+#block-views-at-a-glance-application-block .views-field-php, #block-views-at-a-glance-application-block .views-field-field-application-reqs,
+#block-views-at-a-glance-application-block .views-field-field-application-hosturl,
+#block-views-at-a-glance-application-block .views-field-field-application-deliverymeth,
+#block-views-at-a-glance-application-block .views-field-field-application-license,
+#block-views-at-a-glance-application-block .views-field-field-application-rlss,
+#block-views-at-a-glance-application-block .views-field-nothing {
+  border-top: 1px solid #eeeeee;
+  margin: 0 0 10px;
+  padding: 10px 0 0;
+  display: block;
+}
+
+/* line 391, ../sass/blocks.scss */
+#block-views-cc-organizations-block {
+  margin-top: 20px;
+}
+
+/* line 394, ../sass/blocks.scss */
+.views-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 398, ../sass/blocks.scss */
+#block-views-at-a-glance-application-block ul div {
+  display: inline;
+  margin-right: 0.2em;
+}
+
+/* line 405, ../sass/blocks.scss */
+#block-menu-menu-footer-menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 626px;
+}
+/* line 411, ../sass/blocks.scss */
+#block-menu-menu-footer-menu ul.menu, #block-menu-menu-footer-menu ul.links.menu {
+  display: inline;
+  padding-left: 0;
+}
+/* line 415, ../sass/blocks.scss */
+#block-menu-menu-footer-menu ul.menu {
+  border: medium none;
+  list-style: none outside none;
+  text-align: left;
+}
+/* line 421, ../sass/blocks.scss */
+#block-menu-menu-footer-menu .menu {
+  margin: 0;
+}
+/* line 425, ../sass/blocks.scss */
+#block-menu-menu-footer-menu ul.menu a, #block-menu-menu-footer-menu ul.links.menu a {
+  text-decoration: none;
+}
+
+/**
+ * Home page
+ */
+/**
+ * Recent activity block
+ */
+/* line 441, ../sass/blocks.scss */
+#block-views-interactions-block,
+#block-views-interactions-block-1 {
+  height: 31em;
+}
+
+/* line 444, ../sass/blocks.scss */
+#block-views-interactions-block-1 .block-inner {
+  padding-top: 50px;
+}
+
+/* line 447, ../sass/blocks.scss */
+#block-views-interactions-block .content {
+  padding: 10px 0;
+}
+
+/* line 450, ../sass/blocks.scss */
+#block-block-22 .block-inner .content {
+  background: transparent;
+  border: none;
+  color: black;
+  text-align: left;
+  text-transform: none;
+  font-size: 1.3em;
+  font-weight: 100;
+  margin: 0;
+  font-family: 'PT Sans';
+  line-height: 1.3em;
+}
+
+/* line 462, ../sass/blocks.scss */
+#block-block-22 .block-inner .content a {
+  text-decoration: none;
+}
+
+/**
+ * Browse places block
+ */
+/* line 472, ../sass/blocks.scss */
+.view-apps-browse-by h2.block-title {
+  margin-bottom: 1em;
+}
+/* line 474, ../sass/blocks.scss */
+.view-apps-browse-by h2.block-title .browse {
+  width: 370px;
+  display: inline-block;
+}
+/* line 480, ../sass/blocks.scss */
+.view-apps-browse-by .block-title .using {
+  width: 125px;
+  display: inline-block;
+}
+/* line 484, ../sass/blocks.scss */
+.view-apps-browse-by .block-title .created {
+  width: 110px;
+  display: inline-block;
+}
+/* line 489, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps {
+  /*background: transparent url('../images/created-inactive.png') top left no-repeat;*/
+  /*height: 44px;*/
+  padding: 0px;
+  margin: 0px;
+}
+/* line 494, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps:first-child {
+  /*background: transparent url('../images/hammer-wrench-inactive.png') top left no-repeat;*/
+}
+/* line 497, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps .cc-org-prefix-using {
+  color: transparent;
+  background: transparent url("../images/hammer-wrench-active-24.png") 12px 0 no-repeat;
+  width: 40px;
+  height: 24px;
+  /*height: 44px;*/
+  display: block;
+  float: left;
+  margin-right: 5px;
+  font-size: 0;
+}
+/* line 508, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps .cc-org-prefix-sharing {
+  color: transparent;
+  background: transparent url("../images/hammer-wrench-active-24.png") 12px 0 no-repeat;
+  width: 40px;
+  height: 24px;
+  /*height: 44px;*/
+  display: block;
+  float: left;
+  margin-right: 5px;
+  font-size: 0;
+  /*background: transparent url('../images/created-active.png') top left no-repeat;*/
+  background: transparent url("../images/gov-gov-gray-24.png") 12px 0 no-repeat;
+}
+/* line 521, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps .cc-org-count {
+  /*padding-top: 3px;
+  font-size: 2em;*/
+  font-size: 1.2em;
+  padding: 0;
+  line-height: 1.2em;
+  color: #777777;
+}
+/* line 529, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address-2 .cc-org-apps .cc-org-postfix {
+  display: none;
+}
+/* line 534, ../sass/blocks.scss */
+.view-apps-browse-by .views-field-field-organization-address {
+  /*line-height: 44px;
+  margin-left: 10px;*/
+}
+/* line 538, ../sass/blocks.scss */
+.view-apps-browse-by .view-footer a {
+  display: block;
+  float: right;
+  width: 125px;
+  border: 1px solid #e4e4e4;
+  background-color: #F7F7F7;
+  color: #222222;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: .8em;
+}
+
+/* line 553, ../sass/blocks.scss */
+.context-places .views-field .views-field-php .cc-org-apps {
+  color: red;
+}
+
+/* line 556, ../sass/blocks.scss */
+.beta {
+  position: absolute;
+  vertical-align: top;
+  width: 996px;
+  padding: 4px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -147px;
+  margin-bottom: 0;
+  font-family: "PT Sans", Helvetica, Arial;
+  font-size: 1.2em;
+}
+/* line 569, ../sass/blocks.scss */
+.beta span {
+  background: #dcdbdb;
+  padding: 4px;
+  opacity: 0.8;
+}
+/* line 574, ../sass/blocks.scss */
+.beta a {
+  margin-left: 10px;
+  background: #dcdbdb;
+  padding: 4px 6px 4px 4px;
+  opacity: 0.8;
+}
+/* line 580, ../sass/blocks.scss */
+.beta .build {
+  /*margin-left: 217px;*/
+  float: right;
+  margin-right: 46px;
+}
+
+/* line 588, ../sass/blocks.scss */
+.construction {
+  float: left;
+}
+
+/* line 591, ../sass/blocks.scss */
+.beta .red {
+  color: #C33;
+  margin-right: 5px;
+}
+
+/*
+#
+# Interaction Node view
+#
+*/
+/* line 603, ../sass/blocks.scss */
+body.node-type-interaction h1#page-title {
+  display: none;
+}
+
+/* line 606, ../sass/blocks.scss */
+article.node-interaction {
+  padding-top: 25px;
+}
+
+/* line 609, ../sass/blocks.scss */
+#region-content .field-label-inline .field-label {
+  background: none;
+  padding: 0 15px 0 0;
+  color: #333;
+  margin: 0;
+  width: 120px;
+  font-size: auto;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: inherit;
+  border: none !important;
+  font-size: inherit;
+  font-weight: bold;
+  text-align: right;
+}
+
+/**
+ * Profile and User Register
+ */
+/* line 627, ../sass/blocks.scss */
+#region-content .profile h3 {
+  margin-top: 2em;
+}
+
+/* line 630, ../sass/blocks.scss */
+.profile .user-picture {
+  float: none;
+}
+
+/* Hide Vertical tabs on register page */
+/* line 634, ../sass/blocks.scss */
+#user-register-form .vertical-tabs {
+  margin-left: 0;
+}
+
+/* line 637, ../sass/blocks.scss */
+#user-register-form .vertical-tabs .vertical-tabs-list {
+  display: none;
+}
+
+/**
+ * Story content type
+ */
+/* line 643, ../sass/blocks.scss */
+.node .field-name-field-story-image {
+  float: right;
+  margin: 0 10px 10px 10px;
+}
+
+/**
+ * Engagement Commons
+ */
+/* line 651, ../sass/blocks.scss */
+.ec-stories #block-block-36 {
+  margin-bottom: 20px;
+}
+
+/* line 654, ../sass/blocks.scss */
+.ec-stories #region-sidebar-second {
+  margin-top: 16px;
+}
+
+/* line 657, ../sass/blocks.scss */
+.ec-stories h1#page-title {
+  display: inline;
+}
+
+/* line 660, ../sass/blocks.scss */
+.ec-stories footer.submitted {
+  font-size: 100%;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* line 665, ../sass/blocks.scss */
+#views_slideshow_cycle_teaser_section_engagement_commons_page-page {
+  width: 940px;
+  background-color: #374884;
+}
+
+/* line 670, ../sass/blocks.scss */
+.engagement-commons #breadcrumb, .engagement-commons #block-user-login {
+  display: none;
+}
+/* line 673, ../sass/blocks.scss */
+.engagement-commons #region-sidebar-second {
+  margin-top: 16px;
+}
+/* line 676, ../sass/blocks.scss */
+.engagement-commons #block-block-36 {
+  height: 125px;
+  margin-top: 5px;
+  background: transparent url("../images/engagement_commons/eg-banner.png") top left no-repeat;
+  color: transparent;
+  padding-bottom: 0px;
+  border-bottom: 5px solid #374884;
+  margin-bottom: 0px;
+}
+/* line 685, ../sass/blocks.scss */
+.engagement-commons .block #block-block-36 {
+  margin-bottom: 0px;
+}
+/* line 688, ../sass/blocks.scss */
+.engagement-commons h1#page-title {
+  display: none;
+}
+/* line 691, ../sass/blocks.scss */
+.engagement-commons #region-sidebar-second {
+  margin-top: 0px;
+}
+/* line 692, ../sass/blocks.scss */
+.engagement-commons #region-sidebar-second .add-to-marketplace {
+  margin-top: 0px;
+}
+/* line 697, ../sass/blocks.scss */
+.engagement-commons .views-row {
+  margin: 10px 0 30px;
+}
+/* line 700, ../sass/blocks.scss */
+.engagement-commons .engagement-commons-slide-row {
+  margin-top: 0px;
+}
+/* line 703, ../sass/blocks.scss */
+.engagement-commons .view-id-engagement_commons_page view-display-id-block_2 {
+  height: 300px;
+  overflow: hidden;
+}
+/* line 707, ../sass/blocks.scss */
+.engagement-commons #block-views-engagement-commons-page-block-2 {
+  margin-bottom: 0;
+  height: 300px;
+  overflow: hidden;
+}
+/* line 711, ../sass/blocks.scss */
+.engagement-commons #block-views-engagement-commons-page-block-2 h2.block-title {
+  display: none;
+}
+/* line 715, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 718, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-row, .engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 722, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-nothing, .engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-title a, .engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-field-story-apps {
+  width: 300px;
+  color: #222222;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  text-align: right;
+  padding-right: 20px;
+}
+/* line 731, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-title a {
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  top: 100px;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  line-height: 1.2em;
+}
+/* line 741, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-field-story-apps {
+  color: #666666;
+  top: 80px;
+}
+/* line 744, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-field-story-apps .views-label {
+  font-weight: normal;
+}
+/* line 747, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-field-story-apps a {
+  color: #666666;
+  font-weight: bold;
+}
+/* line 752, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page .views-slideshow-cycle-main-frame .views-field-nothing {
+  text-transform: uppercase;
+  padding: 10px 20px 0 20px;
+  color: #666666;
+  height: 40px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* line 761, ../sass/blocks.scss */
+.engagement-commons #zone-header #block-system-user-menu {
+  display: none;
+}
+/* line 764, ../sass/blocks.scss */
+.engagement-commons #block-menu-menu-mktplc-section-nav {
+  margin-bottom: 2px;
+}
+/* line 767, ../sass/blocks.scss */
+.engagement-commons #block-block-37 {
+  font-size: 1.25em;
+}
+/* line 769, ../sass/blocks.scss */
+.engagement-commons #block-block-37 h2.block-title {
+  color: #0d59ac;
+  background: none;
+  border: none;
+  padding: 0;
+  text-transform: none;
+  font-size: 1.25em;
+}
+/* line 779, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page.view-display-id-block_1 td {
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+}
+/* line 784, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page.view-display-id-block_1 .views-field-field-application-logo {
+  float: none;
+  margin: 0 auto;
+  width: auto;
+}
+/* line 790, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page.view-display-id-block_1 .views-field-field-story-apps .views-label {
+  color: #666666;
+  font-weight: normal;
+  font-size: .85em;
+}
+/* line 795, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page.view-display-id-block_1 .views-field-field-story-apps .field-content {
+  display: inline;
+}
+/* line 797, ../sass/blocks.scss */
+.engagement-commons .view-engagement-commons-page.view-display-id-block_1 .views-field-field-story-apps .field-content a {
+  text-decoration: none;
+}
+/* line 803, ../sass/blocks.scss */
+.engagement-commons .view-id-engagement_commons_page.view-display-id-page .views-field-field-story-image {
+  float: left;
+  margin: 0 20px 5px 0;
+}
+/* line 807, ../sass/blocks.scss */
+.engagement-commons .feed-icon {
+  display: none;
+}
+/* line 811, ../sass/blocks.scss */
+.engagement-commons .grid-11 .view-id-engagement_commons_page .view-content {
+  padding: 0.08em 0.8em;
+}
+/* line 814, ../sass/blocks.scss */
+.engagement-commons .grid-11 .view-id-engagement_commons_page .views-field-title .field-content a {
+  font-family: "PT Sans", Helvetica, Arial;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/**
+ * Problem page.
+ */
+/* line 826, ../sass/blocks.scss */
+#block-views-problems-block {
+  position: relative;
+}
+/* line 828, ../sass/blocks.scss */
+#block-views-problems-block .feed-icon {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+}
+/* line 833, ../sass/blocks.scss */
+#block-views-problems-block .view-footer {
+  color: #FFF;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+
+/**
+ * User Actions Block
+ */
+/* line 848, ../sass/blocks.scss */
+#block-cc-actions-cc-actions li {
+  display: block;
+}
+/* line 850, ../sass/blocks.scss */
+#block-cc-actions-cc-actions li.cc-actions-my-account .top-level-item {
+  background: url("../images/greenhead.png") repeat scroll 0 0 #374884;
+  margin-bottom: 0;
+}
+/* line 855, ../sass/blocks.scss */
+#block-cc-actions-cc-actions .top-level-item, #block-cc-actions-cc-actions li.first {
+  background-repeat: no-repeat;
+}
+/* line 858, ../sass/blocks.scss */
+#block-cc-actions-cc-actions .top-level-item {
+  background: url("../images/greenhead.png") repeat scroll 0 0 #374884;
+}
+
+/* line 864, ../sass/blocks.scss */
+.view-top-applications-by-interactions .views-field-field-application-logo {
+  margin: 0 10px 5px 0;
+  float: left;
+}
+/* line 868, ../sass/blocks.scss */
+.view-top-applications-by-interactions .views-field-nid {
+  font-size: .85em;
+}
+/* line 871, ../sass/blocks.scss */
+.view-top-applications-by-interactions .views-field-field-application-sdesc {
+  margin-left: 70px;
+  font-size: .85em;
+}
+
+/* line 880, ../sass/blocks.scss */
+.block-subscriptions-ui h3 {
+  font-size: 14px;
+  margin: 15px 0 0 7px;
+  color: #666;
+}
+
+/* line 885, ../sass/blocks.scss */
+.block-subscriptions-ui .item-list ul {
+  margin-left: 10px;
+}
+
+/* line 888, ../sass/blocks.scss */
+#application-node-form .vertical-tabs-list li.vertical-tab-button:nth-child(4) {
+  display: none;
+}
+
+/* Temporary until Friday */
+/* line 892, ../sass/blocks.scss */
+#user-profile-form .vertical-tabs-list li.vertical-tab-button:nth-child(2) {
+  display: none;
+}
+
+/* line 897, ../sass/blocks.scss */
+#block-cc-helper-cc-app-challenge #app-challenge .app-left {
+  float: left;
+}
+/* line 899, ../sass/blocks.scss */
+#block-cc-helper-cc-app-challenge #app-challenge .app-left p.line1 {
+  font-family: "PT Sans", Arial;
+  font-size: 18px;
+  text-align: left;
+}
+/* line 905, ../sass/blocks.scss */
+#block-cc-helper-cc-app-challenge #app-challenge .app-right {
+  margin-left: 314px;
+}
+/* line 908, ../sass/blocks.scss */
+#block-cc-helper-cc-app-challenge #app-challenge .app-right p.line2 {
+  font-family: "PT Sans", Arial;
+  font-size: 18px;
+  text-align: left;
+}
+/* line 913, ../sass/blocks.scss */
+#block-cc-helper-cc-app-challenge #app-challenge .app-right p.line3 {
+  font-family: PT Sans;
+  font-size: 18px;
+  text-align: left;
+}
