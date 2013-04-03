@@ -264,29 +264,6 @@ aside .content {
 
 
 
-/*
-Frontpage specific.
-*/
-
-.front {
-  #block-system-main {
-    margin: 0;
-  }
-
-  h1.title {
-    font-size: 53px;
-    margin: 0;
-    padding-left: 0px;
-    padding-top: 0px;
-    margin-top: -10px;
-    text-align: left;
-    font-weight: normal;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-  }
-}
-
 
 .region-content .field-name-field-application-screenshots .field-items .field-item img {
   margin: 10px 0; }
@@ -444,7 +421,7 @@ Frontpage specific.
 
 
 
-  .block-title h2,
+.block-title h2,
 h2.block-title,
 #region-content .field-label {
   font-family: Helvetica, Arial, sans-serif;
@@ -1180,4 +1157,36 @@ div.field-item.even p strong {
 
 #block-user-login{
   float:none;
+}
+
+
+.region-content-main-left .view,
+.region-content-main-middle .view,
+.region-content-main-right .view {
+  padding: 0;
+}
+
+
+
+/*
+Frontpage specific.
+*/
+
+.front {
+  #block-system-main {
+    margin: 0;
+  }
+
+  #page-title {
+    font-size: 53px;
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: -10px;
+    text-align: left;
+    font-weight: normal;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
 }

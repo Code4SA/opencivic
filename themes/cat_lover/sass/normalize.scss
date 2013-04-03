@@ -293,11 +293,11 @@ mark {
  * Addresses margins set differently in IE6/7
  */
 
-p,
-pre {
-  /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: rhythm(1) 0;
-}
+// p,
+// pre {
+//   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
+//   // margin: rhythm(1) 0;
+// }
 
 /*
  * Corrects font family set oddly in IE6, S4/5, Chrome
@@ -813,3 +813,8 @@ button {
    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img {
   -ms-interpolation-mode: bicubic; }
+
+
+#page-title {
+  font-size: 40px;
+  margin-bottom: 10px; }

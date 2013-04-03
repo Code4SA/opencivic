@@ -68,10 +68,6 @@ css[normalize.css][name] = Normalize
 css[normalize.css][description] = Normalize
 css[normalize.css][options][weight] = 15]
 
-css[pages.css][name] = Pages styles
-css[pages.css][description] = Pages and regions styles.
-css[pages.css][options][weight] = 16]
-
 css[comments.css][name] = comments styles
 css[comments.css][description] = comments styles.
 css[comments.css][options][weight] = 16]
@@ -95,6 +91,10 @@ css[tabs.css][options][weight] = 16]
 css[views-styles.css][name] = views-styles styles
 css[views-styles.css][description] = views-styles styles.
 css[views-styles.css][options][weight] = 16]
+
+css[pages.css][name] = Pages styles
+css[pages.css][description] = Pages and regions styles.
+css[pages.css][options][weight] = 20]
 
 
 ; SCRIPTS
