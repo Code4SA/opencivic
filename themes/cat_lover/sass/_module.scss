@@ -2,7 +2,7 @@
 
 
 
-/* Blocks content
+/* User login
 ============================================================================ */
 
 /* Janrain Engage (LinkedIn)
@@ -35,23 +35,6 @@
   }
 }
 
-
-
-#block-cc-helper-cc-breadcrumb {
-  margin: 0;
-  float: left;
-  clear: none; }
-
-.region-content-top-inner {
-  min-height: 25px;
-  padding-bottom: 10px;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 10px; }
-
-#block-cc-helper-cc-breadcrumb .block {
-  clear: none; }
-
 #block-system-user-menu {
   clear: both;
   float: right;
@@ -83,6 +66,28 @@
   margin-bottom: 0px;
   /* margin-top: -80px */
   /* moves it above search, closer to util bar */ }
+
+
+
+
+
+
+#block-cc-helper-cc-breadcrumb {
+  margin: 0;
+  float: left;
+  clear: none; }
+
+.region-content-top-inner {
+  min-height: 25px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px; }
+
+#block-cc-helper-cc-breadcrumb .block {
+  clear: none; }
+
+
 
 #block-addtoany-addtoany-button {
   display: none; }
@@ -230,6 +235,11 @@
 
 .front .add-to-marketplace h2 {
   text-align: center; }
+
+
+
+/* Apps & org Page
+============================================================================ */
 
 /* Apps & org Pages */
 .field-name-field-application-logo,
@@ -1855,7 +1865,9 @@ div.field-item.even p strong {
   padding: 0;
 }
 
-
+#page-title {
+  font-size: 40px;
+  margin-bottom: 10px; }
 
 /*
 Frontpage specific.
